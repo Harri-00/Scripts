@@ -1,23 +1,30 @@
 # Scripts
 
-
-# HTB Start Script 
+# HTB Start Script
 
 A Bash script to automate processes when starting a new Hack The Box (HTB) machine.
 
 This script:
 - Checks connectivity to a target IP
 - Automatically creates a project folder in `~/Desktop/htb/<boxname>`
-- Runs a basic Nmap scan and saves the output as 'nmap.txt'
+- Runs a basic Nmap scan and saves the output as `nmap.txt`
 
 ---
 
 ## Usage
 
-### 1. Make sure you're connected to the HTB VPN.
+1. Make sure you're connected to the HTB VPN.
 
-### 2. Run the script:
+2. Make the script executable:
+
+   ```bash
+   chmod +x nmap-builder.sh
+
+3. Run the script:
+
+   ```bash
    ./htb-start.sh
+
 
 
 # Nmap Builder Script
@@ -42,4 +49,7 @@ An interactive Bash script to help you quickly build and run common Nmap scans.
    ```bash
    chmod +x nmap-builder.sh
 
-2. Run the script: ./nmap-builder.sh
+2. Run the script:
+
+  ```bash
+    ./nmap-builder.sh
