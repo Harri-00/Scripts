@@ -18,7 +18,7 @@ This script:
 2. Make the script executable:
 
     ```bash
-   chmod +x nmap_builder.sh
+   chmod +x htb_start.sh
     ```
 
 3. Run the script:
