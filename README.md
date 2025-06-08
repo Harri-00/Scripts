@@ -15,7 +15,4 @@ This script:
 
 ### 1. Make sure you're connected to the HTB VPN.
 
-### 2. Run the script:
-
-```bash
-python3 htb_start.py
+### 2. Run the script: ./htb-start.sh
