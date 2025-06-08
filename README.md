@@ -17,7 +17,7 @@ This script:
 
 2. Make the script executable:
 
-   ```bash
+    ```bash
    chmod +x nmap_builder.sh
     ```
 
@@ -26,6 +26,7 @@ This script:
     ```bash
    ./htb_start.sh
     ```
+
 
 # Nmap Builder Script
 
@@ -46,15 +47,17 @@ An interactive Bash script to help you quickly build and run common Nmap scans.
 ## Usage
 
 1. Make the script executable:
-   ```bash
+
+    ```bash
    chmod +x nmap_builder.sh
     ```
 
 2. Run the script:
 
-  ```bash
+    ```bash
     ./nmap_builder.sh
     ```
+
 
 # VPN Check Script
 
@@ -70,11 +73,13 @@ This script:
 ## Usage
 
 1. Make the script executable:
-   ```bash
+
+    ```bash
    chmod +x vpn_check.sh
     ```
 
 3. Run the script:
-   ```bash
+
+    ```bash
    ./vpn_check.sh
     ```
