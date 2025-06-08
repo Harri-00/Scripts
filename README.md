@@ -18,13 +18,12 @@ This script:
 2. Make the script executable:
 
    ```bash
-   chmod +x nmap-builder.sh
+   chmod +x nmap_builder.sh
 
 3. Run the script:
 
    ```bash
-   ./htb-start.sh
-
+   ./htb_start.sh
 
 
 # Nmap Builder Script
@@ -47,9 +46,32 @@ An interactive Bash script to help you quickly build and run common Nmap scans.
 
 1. Make the script executable:
    ```bash
-   chmod +x nmap-builder.sh
+   chmod +x nmap_builder.sh
 
 2. Run the script:
 
   ```bash
-    ./nmap-builder.sh
+    ./nmap_builder.sh
+
+
+# VPN Check Script
+
+A Bash script to quickly verify whether you're connected to the Hack The Box VPN.
+
+This script:
+- Checks for the `tun0` interface used by OpenVPN
+- Confirms an IP address is assigned
+- Optionally pings the HTB gateway (`10.10.10.10`) to verify routing
+
+---
+
+## Usage
+
+1. Make the script executable:
+   ```bash
+   chmod +x vpn_check.sh
+
+3. Run the script:
+   ```bash
+   ./vpn_check.sh
+
