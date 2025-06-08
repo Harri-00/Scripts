@@ -15,9 +15,6 @@ if ip a show tun0 > /dev/null 2>&1; then
 
         if [[ $? -eq 0 ]]; then
             echo "HTB VPN routing is working."
-        else
-            echo "VPN connected, but can't reach HTB network. Check your .ovpn file or firewall."
-        fi
     else
         echo "tun0 exists, but no IP address. VPN might not be fully connected."
     fi

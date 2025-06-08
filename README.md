@@ -66,7 +66,6 @@ A Bash script to quickly verify whether you're connected to the Hack The Box VPN
 This script:
 - Checks for the `tun0` interface used by OpenVPN
 - Confirms an IP address is assigned
-- Optionally pings the HTB gateway (`10.10.10.10`) to verify routing
 
 ---
 
